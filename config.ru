@@ -1,2 +1,5 @@
-# Write your code here!
-run ApplicationController
+require 'sinatra'
+
+require_relative './app'
+
+run Application
